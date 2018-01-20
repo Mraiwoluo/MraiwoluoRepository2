@@ -10,13 +10,17 @@
 
 <body>
     <script>
-        switch ("b") {
-            case "a":
-                alert("a");
-            case "b":
-                alert("b");
+        var obj = {
+            'one': 1,
+            'two': function (aa) {
+                return aa;
+            }
         }
+        alert(obj.one);
+        alert(obj.two(2));
     </script>
+
+    <input type="button" style="background:red" value="aa" onclick="functionone();">
 </body>
 
 </html>
